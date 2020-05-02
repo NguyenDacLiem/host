@@ -1,0 +1,85 @@
+.plans-main {
+    margin-top: 95px;
+}
+
+.plans__image{
+    background-image: url('../images/plans-background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+.plan {
+    background-color: rgba(213, 255, 220, 0.95);
+    border: 3px solid #0e4f1f;
+    margin: 2rem 0;
+    padding: 3rem 2rem;
+    width: 70%;
+}
+
+.plan:hover,
+.plan:active {
+    border-color: red;
+}
+
+.plan__link {
+    text-decoration: none;
+}
+
+.plan__recommend {
+    background-color: #ff5454;
+    color: white;
+    margin: 0;
+    position: absolute;
+    padding: 0.5em 1rem;
+    top: 5%;
+    right: 5%;
+}
+
+.plan__level {
+    color: black;
+    font-size: 1.7rem;
+}
+
+.plan__feature {
+    color: #979797;
+    font-size: 1.5rem;
+}
+
+.plan__detail {
+    background-color: white;
+    border: 1px solid #0e4f1f;
+    color: #0e4f1f;
+    font-size: 1.3rem;
+    padding: 1.2rem 1rem;
+}
+
+#plus {
+    border-left: none;
+    position: relative;
+}
+
+#free {
+    border-right: none;
+    float: right;
+    text-align: right;
+}
+
+#premium {
+    background-color: #0e4f1f;
+    border-left: none;
+
+}
+
+#premium .plan__level {
+    color: white;
+}
+
+.clear-fix {
+    clear: both;
+}
