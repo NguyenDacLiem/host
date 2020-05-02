@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.panel {
+    background-image: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), 
+                      url('images/freedom.jpg');
+    height: 400px;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: top 20% left 30%;
+    background-size: cover;
+    position: relative;
+}
+
+.panel__slogan {
+    bottom: 5%;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    left: 5%;
+    position: absolute;
+}
+
+.plans-section__prompt {
+    color: #2ddf5c;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans__plan {
+    background-color: #d5ffdc;
+    display: inline-block;
+    padding: 1rem;
+    width:30%;  
+    vertical-align: middle;
+}
+
+.plans__plan--recommended {
+    background-color: #19b84c;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plans__recomment {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    color: #19b84c;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+
+.plans__package {
+    color: #0e4f1f;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.plans__package--recommened {
+    color: white;
+}
+
+.plans__price {
+    color: #858585;
+    font-size: 1.5rem;
+} 
+
+.plans__price--recommended {
+    color: #0e4f1f;
+}
+
+.plans__usage {
+    color: black;
+    font-weight: bold;
+}
+
+.plans__usage--recommended {
+    color: white;
+}
+
+.plans__info {
+    list-style: none;
+    font-size: 0.8rem;
+    padding: 0;
+}
+
+.plans__info--recommended {
+    color: white;
+}
+
+.plans__detail {
+    margin: 0.25rem 0;
+}
+
+.button {
+    background-color: #0e4f1f;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+}
+
+.button:hover,
+.button:active {
+    background-color: white;
+    color: #0e4f1f;
+}
+
+.reasons {
+    background-color: #ff1b68;
+    height: 300px;
+    margin-top: 2rem;
+    padding: 1rem 0.5rem;
+}
+
+.reasons__inform {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.reasons__features {
+    text-align: center;
+}
+.reasons__feature {
+    display: inline-block;
+    list-style: none;
+    margin: 0.3rem 0.5rem;
+    width: 30%;
+}
+
+.reasons__detail {
+
+}
+
+.reasons__image {
+    background-color: #ffcede;
+    border-radius: 50%;
+    height: 130px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 130px;
+
+}
+
+.reasons_good {
+    color: white;
+    font-size: 1.2rem;
+}
