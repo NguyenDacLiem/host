@@ -4,7 +4,7 @@
         <title>uHost</title>
         <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="../shared.css">
-        <link rel="stylesheet" href="customers.css">
+        <link rel="stylesheet" href="start-hosting.css">
     </head>
     <body>
         <div class="back-drop"></div>
@@ -25,10 +25,10 @@
                         <a href="../packages/index.html" class="main-nav__link">Packages</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="#" class="main-nav__link">Customers</a>
+                        <a href="../customers/index.html" class="main-nav__link">Customers</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="../start-hosting/index.html" class="main-nav__link main-nav__link--selected">Start Hosting</a>
+                        <a href="#" class="main-nav__link main-nav__link--selected">Start Hosting</a>
                     </li>
                 </ul>
             </nav>
@@ -39,30 +39,31 @@
                     <a href="../packages/index.html">Packages</a>
                 </li>
                 <li class="mobile-nav__link">
-                    <a href="#">Customers</a>
+                    <a href="../customers/index.html">Customers</a>
                 </li>
                 <li class="mobile-nav__link mobile-nav__link--selected">
-                    <a href="../start-hosting/index.html">Start Hosting</a>
+                    <a href="#">Start Hosting</a>
                 </li>
             </ul>
         </nav>
-        <main class="testimonial-main">
-            <div class="testimonial customer-1">
-                <img class= "testimonial__customer" src="../images/customer-1.jpg" alt="Customer 1">
-                <div class="testimonial__info">
-                    <h1 class="testimonial__name">Mike Statham</h1>
-                    <h2 class="testimonial__role">Founder of tech-analysis.com</h2>
-                    <p class="testimonial__comment">uHost helped me realize my project with a highly constrained budget in like no time.</p>
-                </div>
-            </div>
-            <div class="testimonial customer-2">
-                <div class="testimonial__info">
-                    <h1 class="testimonial__name">John Mellow</h1>
-                    <h2 class="testimonial__role">Hosts his private videos on uHost.</h2>
-                    <p class="testimonial__comment">I worked as a blogger and always looked for an integrated hosting and file storage solution. I found it in uHost!</p>
-                </div>
-                <img class= "testimonial__customer" src="../images/customer-2.jpg" alt="Customer 2">
-            </div>
+        <main class="register">
+            <h1 class="register__prompt">Awesome! Let's dive right in!</h1>
+            <form class="register__form" action="">
+                 <label for="title">Title</label>
+                 <select id="title">
+                     <option value="mr">Mr.</option>
+                     <option value="ms">Ms.</option>
+                 </select>
+                 <label for="first-name">First name</label>
+                 <input type="text" id="first-name">
+                 <label for="last-name">Last name</label>
+                 <input type="text" id="last-name">
+                 <label for="email">Email</label>
+                 <input type="email" id="email">
+                 <label for="password">Password</label>
+                 <input type="password" id="password">
+
+            </form>
         </main>
         <footer class="main-footer">
             <ul class="main-footer__items">

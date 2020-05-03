@@ -1,0 +1,38 @@
+.register {
+    margin-top: 80px;
+}
+
+.register__prompt {
+    color: #ff5454;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.register__form {
+    margin: 0 auto;
+    width: 20rem;
+
+}
+
+label, 
+input,
+select {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input:focus,
+select:focus {
+    background-color: #d8f3df;
+    border: #ff5454 1px solid;
+    outline: none;
+}
+
+select {
+    border: solid 1px #ccc;
+}

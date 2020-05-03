@@ -7,8 +7,23 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <div class="back-drop"></div>
+        <div class="modal">
+            <h1 class="modal__title">Do you want to continue?</h1>
+            <div class="modal__action">
+                <a class="modal__link" href="start-hosting/index.html">
+                    <button class="modal__button modal__button--select-yes">Yes!</button>
+                </a>
+                <button class="modal__button modal__button--select-no">No</button>
+            </div>
+        </div>
         <header class="main-header">
             <div class="logo">
+                <button class="toogle-button">
+                    <span class="toogle-button__bar"></span>
+                    <span class="toogle-button__bar"></span>
+                    <span class="toogle-button__bar"></span>
+                </button>
                 <a href="#">
                     <img src="images/uhost-icon.png" alt="uhost icon" class="logo__image" >
                 </a>
@@ -22,11 +37,24 @@
                         <a href="customers/index.html" class="main-nav__link">Customers</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="#" class="main-nav__link main-nav__link--selected">Start Hosting</a>
+                        <a href="start-hosting/index.html" class="main-nav__link main-nav__link--selected">Start Hosting</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__links">
+                <li class="mobile-nav__link">
+                    <a href="packages/index.html">Packages</a>
+                </li>
+                <li class="mobile-nav__link">
+                    <a href="customers/index.html">Customers</a>
+                </li>
+                <li class="mobile-nav__link mobile-nav__link--selected">
+                    <a href="start-hosting/index.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
         <main>
             <section class="panel">
                 <h1 class="panel__slogan">Get the freedom you deserve.</h1>
@@ -316,5 +344,6 @@
                 <li class="main-footer__item">Terms of Use</li>
             </ul>
         </footer>
+        <script src="share.js"></script>
     </body>
 </html>
